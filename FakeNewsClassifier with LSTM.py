@@ -98,7 +98,7 @@ y_pred_ = model_.predict_classes(X_test)
 cm_= confusion_matrix(y_test,y_pred_)
 acc_ = accuracy_score(y_test,y_pred_)
 
-print(f'The accuracy without dropout (= {acc}) is less than the accuracy with dropout (= {acc_})')
+
 
 
 
